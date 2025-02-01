@@ -136,9 +136,7 @@
                 birth: Date.now()
             };
             this.transactions.push(transaction);
-            
-            // Play dot sound for new transaction
-            this.playDotSound();
+           
         }
     
         createParticles(count) {
