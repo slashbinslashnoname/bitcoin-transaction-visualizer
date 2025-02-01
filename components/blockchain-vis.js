@@ -258,9 +258,14 @@
             this.ctx.textAlign = 'center';
             this.ctx.fillText('Bitcoin Transactions Visualizer', this.canvas.width / 2, 25);
             
+            // Draw pseudonym
+            this.ctx.font = '14px "Courier New", monospace';
+            this.ctx.fillStyle = 'rgba(76, 175, 80, 0.7)';
+            this.ctx.fillText('by slashbin', this.canvas.width / 2, 45);
+            
             // Draw monitor bar background
             const barHeight = 4;
-            const barY = 50;
+            const barY = 60; // Moved down to make room for pseudonym
             
             this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
             this.ctx.fillRect(20, barY, this.canvas.width - 40, barHeight);
