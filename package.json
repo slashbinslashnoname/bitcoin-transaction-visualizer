@@ -1,0 +1,13 @@
+{
+  "name": "bitcoin-transactions-visualizer",
+  "version": "1.0.0",
+  "description": "Real-time Bitcoin transactions visualization",
+  "private": true,
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step needed'"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+} 
