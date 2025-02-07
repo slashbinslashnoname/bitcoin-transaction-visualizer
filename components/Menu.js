@@ -14,9 +14,6 @@ export default function Menu() {
           <Link href="/viz" className={`menu-item ${isViz ? 'active' : ''}`}>
             Visualization
           </Link>
-          <Link href="/satoshi" className={`menu-item ${isSatoshi ? 'active' : ''}`}>
-            Satoshi
-          </Link>
           <Link href="/about" className={`menu-item ${isAbout ? 'active' : ''}`}>
             About
           </Link>
